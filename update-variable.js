@@ -1,0 +1,10 @@
+var inStock;
+var Shipping;
+inSock=true;
+shipping=false;
+inSock=false;
+shipping=true;
+var elStock=document.getElementById('stock');
+elStock.className=inStock;
+var elShip=document.getElementById('Shipping');
+elShip.className=shipping;
