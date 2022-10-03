@@ -1,0 +1,13 @@
+var list=document.getElementsByTagName('ul')[0];
+var newItemlast=document.createElement('li');
+var newTextLast=document.createTextNode('cream');
+newItemlast.appendChild(newItemlast);
+var newItemFirst=document.createElement('li');
+var newTexrFirst=document.createTextNode('kale');
+newItemFirst.appendChild(newTexrFirst);
+list.insertBefore(newItemlast,list.firstChild);
+var listItems=document.querySelectorAll('li');
+vari;
+for(i = 0;i < listItems.length;i++);
+listItems[i].className='coll';
+var heading=document.querySelector('h2');
