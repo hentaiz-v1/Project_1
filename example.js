@@ -1,28 +1,17 @@
-var greeting ='Howdy';
-var name='Molly';
-var message='please check your order:';
-var welcomw=greeting+name+message;
-var sign='Montague House';
-var tiles=sign.length;
-var subTotal=liles*5;
-var shipping=7;
-var grandTotal=subTotal+shipping;
-var el=document.getElementById('greeting');
-el.textContent=welcome;
-var elSign=document.getElementById('userSign');
-elSign.textContent=sign;
-var elTiles=document.getElementById('title');
-elTiles.textContent=liles;
-var elSubtotal=document.getElementById('subtotal');
-elSubtotal.textContent='$'+subtotal;
-el.textContent=welcome;
-var elSign=document.getElementById('userSign');
-eltitle.textContent=sign;
-var elTiles=document.getElementById('tiles');
-eltitle.textContent=tiles;
-var elSubtotal=document.getElementById('subtotal');
-elSubtotal.textContent='$'+subtotal;
-var elShipping=document.getElementById('Shipping');
-elShipping.textContent='$'*shipping;
-var elGrandtotal=document.getElementById('Grandtotal');
-elGrandtotal.textContent='$'*grandTotal;
+var table=3;
+var operator='addition';
+var i=1;
+var msg='';
+if (operator==='addition'){
+  while (i<11){
+    msg+=i + '+' +table+'='+(i+table)+'<br/>';
+    i++;
+  }
+}else{
+  while (i<11){
+    msg+=i+'x'+table+'='+(i*table0)+'<br/>';
+    i++;
+  }
+}
+var el=document.getElementById('blackboard');
+el.innerHTML=msg;
